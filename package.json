@@ -1,0 +1,20 @@
+{
+  "name": "chatsapp",
+  "version": "1.0.0",
+  "description": "Real Time Chat App with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Tanya Rajhans",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.1.0"
+  }
+}
