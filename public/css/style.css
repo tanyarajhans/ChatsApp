@@ -187,4 +187,22 @@ a {
 	.chat-sidebar {
 		display: none;
 	}
+
+	.btn{
+		height: 39px;
+	}
+
+	.leave-btn{
+		padding-top: 10px;
+	}
+}
+
+@media all and (max-width: 1279px){
+	.leave-btn{
+		padding: 10px 5px;
+	}
+
+	.send-btn{
+		padding: 10px 5px;
+	}
 }
